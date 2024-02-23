@@ -17,7 +17,7 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 
-                sudo /home/team09/miniconda3/bin/conda init
+                sudo /base init
 
                 # TODO Complete the command to run pytest
                 sudo /base run -n mliplab6 pytest
