@@ -22,8 +22,8 @@ pipeline {
                 # TODO Complete the command to run pytest
                 sudo /home/team09/miniconda3/bin/conda run -n mliplab6 pytest
 
-                echo 'pytest not runned'
-                exit 1 #comment this line after implementing Jenkinsfile
+                # echo 'pytest not runned'
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
